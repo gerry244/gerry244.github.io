@@ -6,7 +6,6 @@ body{
 	font-size: 16px; /*1em=16px*/
 	margin-top: 50px;
 }
-
 p{
 	font-size: 25px;
 	text-indent: 50px;
@@ -15,21 +14,16 @@ header {
 	width: 1000px;
 	margin: 0 auto;
 }
-header div {
-	vertical-align: top;
-}
 header img {
 	width: 49%;
 	display: inline-block;
+	border:3px solid red;
 }
 
 #middle-title {
 	width:49%;
 	display: inline-block;
 	line-height: 375px;
-}
-
-h1{ 
 	color: red;
+	vertical-align: top;
 }
-
