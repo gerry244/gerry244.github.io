@@ -1,3 +1,9 @@
+link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet"
+
+h1{
+font-family: 'BenchNine', sans-serif;
+}
+
 body{
 	background-color: pink;
 	background-position: center;
@@ -6,6 +12,7 @@ body{
 	font-size: 16px; /*1em=16px*/
 	margin-top: 50px;
 }
+
 p{
 	font-size: 25px;
 	text-indent: 50px;
