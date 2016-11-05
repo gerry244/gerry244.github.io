@@ -1,10 +1,9 @@
-link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet"
-
-h1{
-font-family: 'BenchNine', sans-serif;
+*{
+	padding: 0;
+	margin: 0;
 }
-
 body{
+	font-family: 'Roboto', sans-serif;
 	background-color: pink;
 	background-position: center;
 	background-size: 1920px 1080px;
@@ -13,9 +12,21 @@ body{
 	margin-top: 50px;
 }
 
+img {
+	width: 49%;
+}
+
 p{
-	font-size: 25px;
+	font-size: 1.5em;
 	text-indent: 50px;
+}
+
+div{
+	margin: 3em 0 3em 0;
+}
+
+section{
+	margin: 3em 0 3em 0;
 }
 header {
 	width: 1000px;
@@ -24,13 +35,29 @@ header {
 header img {
 	width: 49%;
 	display: inline-block;
-	border:3px solid red;
+ 	border:3px solid red;
+}
+
+h1{
+	color: red;
+	font-size: 3em;
+}
+
+#wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+#lorem{
+	width: 50%;
+	margin: 0 auto;
 }
 
 #middle-title {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 2em;
 	width:49%;
 	display: inline-block;
 	line-height: 375px;
-	color: red;
+    color: red;
 	vertical-align: top;
 }
