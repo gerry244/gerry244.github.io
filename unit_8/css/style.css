@@ -38,7 +38,7 @@ header {
 header img {
 	width: 49%;
 	display: inline-block;
- 	border:3px solid red;
+ 	border:.5em solid red;
 }
 
 h1{
@@ -63,16 +63,16 @@ h1, h2, h3, h4 {
 	font-size: 3em;
 	width:49%;
 	display: inline-block;
-	line-height: 375px;
-    color: red;
-	vertical-align: top;
+	line-height: 8em;
+	color: red;
+	vertical-align: top; 
 }
 .mid-title {
 	font-family: 'BenchNine', sans-serif;
 	font-size: 3em;
 	width:49%;
 	display: inline-block;
-	line-height: 375px;
+	line-height: 8em;
     color: red;
 	vertical-align: top;
 }
